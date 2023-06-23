@@ -3,7 +3,7 @@ function searchCards() {
     var query = document.getElementById('searchInput').value.toLowerCase();
   
     // Get all the cards
-    var cards = document.getElementsByClassName('chapter__content');
+    var cards = document.getElementsByClassName('def__chapter__content');
   
     // Loop through each card and check if it matches the search query
     for (var i = 0; i < cards.length; i++) {
