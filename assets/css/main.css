@@ -697,6 +697,10 @@ img {
   transform: translateX(.25rem);
 }
 
+.notes__modal-note p{
+  padding-right: 10px;
+}
+
 /* .notes__modal{
   position: fixed;
   top: 0;
@@ -723,7 +727,7 @@ img {
 
 .notes__modal-notes{
   row-gap: 1rem;
-}
+} 
 
 .notes__modal-note{
   display: flex;
