@@ -194,6 +194,21 @@
                     <div class="timeline">
                         <div class="timeline__line"></div>
 
+                        <!-- Security and Product Development Engineer Intern -->
+                        <div class="timeline__item">
+                            <div class="timeline__dot"></div>
+                            <div class="timeline__content">
+                                <div class="timeline__date">2024</div>
+                                <h3 class="timeline__title">Security and Product Development Engineer Intern</h3>
+                                <div class="timeline__location">
+                                    <i class="uil uil-location-point"></i>
+                                    Stiisk, MA
+                                </div>
+                                <p class="timeline__description">Developed and implemented security measures for
+                                    internal tools and products.</p>
+                            </div>
+                        </div>
+
                         <!-- Teaching Assistant -->
                         <div class="timeline__item">
                             <div class="timeline__dot"></div>
@@ -543,6 +558,31 @@
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
+
+    <div class="fab-button" id="chatFab">
+        <img src="assets/images/me/vicky.png" alt="Chat with Vicky">
+    </div>
+
+    <div class="chat-widget" id="chatWidget">
+        <div class="chat-header">
+            <h3>Chat with Vicky</h3>
+            <button class="chat-close" id="chatClose">
+                <i class="uil uil-times"></i>
+            </button>
+        </div>
+        <div class="chat-container">
+            <div class="chat-messages" id="chatMessages"></div>
+            <div class="chat-input-container">
+                <input type="text" id="chatInput" placeholder="Type your message...">
+                <button id="sendMessage">
+                    <i class="uil uil-message"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/gemini-config.js" type="module"></script>
+    <script src="assets/js/chatbot.js" type="module"></script>
 </body>
 
 </html>
